@@ -1,27 +1,36 @@
-# SymphonyApp
+# My Symphony App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+This project is sample Extension App in Symphony Solutions Platform
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Have `node` and `npm` installed.
+* Have port 4200 available as we'll run the application on this port.
+* If you are planning to use Chrome to run the app, you will need to first enable the #allow-insecure-localhost flag in Chrome. To do this, go to chrome://flags and enable the setting called "Allow invalid certificates for resources loaded from localhost". 
 
-## Code scaffolding
+## Install dependencies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone this repo and `cd` into the directory, run these commands
 
-## Build
+```
+npm i
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Run the project
 
-## Running unit tests
+```
+npm run start
+```
+or 
+```
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Ensure the sample app is running by visiting https://localhost:4200/home
 
-## Running end-to-end tests
+## Bundle the app
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Visit this url: 
+    * https://<YOUR_COMPANY_POD>.symphony.com/client/index.html?bundle=https://localhost:4200/assets/bundle.json
+* Accept the "Warning: Unauthorized App(s)" dialog
+* Click on the "Applications > App Store" entry in your left nav to install My Symphony App

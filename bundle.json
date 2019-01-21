@@ -1,0 +1,14 @@
+{
+  "applications": [
+    {
+      "type": "sandbox",
+      "id": "symphony.app",
+      "name": "My Symphony App",
+      "blurb": "",
+      "publisher": "Mohammed Hilmi",
+      "url": "https://localhost:4200/controller",
+      "domain": "localhost",
+	  "allowOrigins": "localhost:4200"
+    }
+  ]
+}
