@@ -1,6 +1,6 @@
 # My Symphony App
 
-My Symphony App is a sample application based on Angular, demonstrating the creation of a simple EntityRenderer in Symphon. For more details please refers to Symphony documentation: 
+My Symphony App is a sample application based on Angular, demonstrating the creation of a simple EntityRenderer in Symphony. For more details please refers to Symphony documentation: 
 * https://extension-api.symphony.com/docs
 
 ## Prerequisites
