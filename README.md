@@ -1,6 +1,7 @@
 # My Symphony App
 
-This project is sample Extension App in Symphony Solutions Platform
+My Symphony App is a sample application based on Angular, demonstrating the creation of a simple EntityRenderer in Symphon. For more details please refers to Symphony documentation: 
+* https://extension-api.symphony.com/docs
 
 ## Prerequisites
 
@@ -34,3 +35,7 @@ ng serve
     * https://<YOUR_COMPANY_POD>.symphony.com/client/index.html?bundle=https://localhost:4200/assets/bundle.json
 * Accept the "Warning: Unauthorized App(s)" dialog
 * Click on the "Applications > App Store" entry in your left nav to install My Symphony App
+
+## Common Mistakes
+* Front must be served over https.
+* app-id within the bundle.json file must match the code. 
